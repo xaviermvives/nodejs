@@ -1,16 +1,16 @@
 // argumentos de entrada
-//console.log(process.argv)
+// console.log(process.argv)
 
 // controlar el proceso y su salida
-//process.exit(0)
+// process.exit(0)
 
 // podemos controlar eventos del proceso
 process.on('exit', () => {
-    //limpiar recursos
+    // limpiar recursos
 })
 
 // current working directory
 console.log(process.cwd())
 
-//variables entorno
+// variables entorno
 console.log(process.env.PEPITO)
